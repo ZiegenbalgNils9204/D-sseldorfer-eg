@@ -3,7 +3,7 @@
 .Hintergrund{background-image: url(../Software/Bilder/Hintergrund_Slider.jpg);
 background-repeat: no-repeat;}
 #footerIcon{
-    color: #f4511e;
+    color: black
 }
 body {
       font: 400 15px Lato, sans-serif;
@@ -25,9 +25,9 @@ body {
       margin-bottom: 30px;
   }  
   .jumbotron {
-      background-image: url(../Bilder_Unser_Team/DEG2.jpg);
-      color:red;
-      padding: 100px 25px;
+      background-image: url(../Bilder/fehmarn_puttgarden_sonnenuntergang_faehre.jpg);
+      color: #fff;
+      padding: 170px 50px;
       font-family: Montserrat, sans-serif;
   }
   .container-fluid {
@@ -97,25 +97,41 @@ body {
       border-bottom-left-radius: 0px;
       border-bottom-right-radius: 0px;
   }
-  
-
+  .panel-footer {
+      background-color: white !important;
+  }
+  .panel-footer h3 {
+      font-size: 32px;
+  }
+  .panel-footer h4 {
+      color: #aaa;
+      font-size: 14px;
+  }
+  .panel-footer .btn {
+      margin: 15px 0;
+      background-color: #f4511e;
+      color: #fff;
+  }
+.farbe{background-color: #f4511e;
+border-color: #f4511e;}
   .navbar {
       margin-bottom: 0;
-      background-color: black;
+      background-color: lightblue;
       z-index: 9999;
       border: 0;
       font-size: 12px !important;
       line-height: 1.42857143 !important;
       letter-spacing: 4px;xs
-      border-radius: 0;
+      border-radius:  0;
       font-family: Montserrat, sans-serif;
   }
+  
   .navbar li a, .navbar .navbar-brand {
-      color: #fff !important;
+      color:#fff !important;
   }
   .navbar-nav li a:hover, .navbar-nav li.active a {
-      color: #0833a8 !important;
-      background-color: #fff !important;
+      color: skyblue !important;
+      background-color: black !important;
   }
   .navbar-default .navbar-toggle {
       border-color: transparent;
@@ -169,7 +185,6 @@ body {
         font-size: 150px;
     }
   }
-.Ueberschrift{
-background-color: #0833a8;
+.Ueberschrift{background-color: #f4511e;
 color:white;
 width: 270px;}
